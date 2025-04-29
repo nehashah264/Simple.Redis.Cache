@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Redis.Cache", "Simple.Redis.Cache\Simple.Redis.Cache.csproj", "{ACDD5081-A7A7-472A-9DBE-38D2197052B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Redis.Cache.Memory", "Simple.Redis.Cache.Memory\Simple.Redis.Cache.Memory.csproj", "{0BACDDAF-98E7-51C3-796E-34D5EC093E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Redis.Cache.Distributed", "Simple.Redis.Cache.Distributed\Simple.Redis.Cache.Distributed.csproj", "{2FFA3DEE-C8A7-E065-6966-75B403D1C091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDD5081-A7A7-472A-9DBE-38D2197052B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDD5081-A7A7-472A-9DBE-38D2197052B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDD5081-A7A7-472A-9DBE-38D2197052B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDD5081-A7A7-472A-9DBE-38D2197052B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BACDDAF-98E7-51C3-796E-34D5EC093E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BACDDAF-98E7-51C3-796E-34D5EC093E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BACDDAF-98E7-51C3-796E-34D5EC093E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BACDDAF-98E7-51C3-796E-34D5EC093E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFA3DEE-C8A7-E065-6966-75B403D1C091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFA3DEE-C8A7-E065-6966-75B403D1C091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFA3DEE-C8A7-E065-6966-75B403D1C091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFA3DEE-C8A7-E065-6966-75B403D1C091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B3499C-D1A3-47FF-B20B-EE8D80D3BFC4}
+	EndGlobalSection
+EndGlobal
